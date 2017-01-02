@@ -1,12 +1,11 @@
 function checkall(){
-    var h1=document.getElementsByTagName('h1');
-    for(var i=0;i<h1.length;i++)
-    {
-        h1[i].style.color='red';
-    }
-        $("a[href='google.com/']").attr('href','http://www.hutech.edu.vn');  
-        var a=document.getElementsByTagName('a');
-        a[0].innerHTML='Trường ĐH Công Nghệ TP.HCM ';
+
+        $("div h1").css("color", "red");
+        // $("a[href='google.com/']").attr('href','http://www.hutech.edu.vn');  
+        // // var a=document.getElementsByTagName('a');
+        // // a[0].innerHTML='Trường ĐH Công Nghệ TP.HCM ';
+        $("#kh").attr("href", "http://www.hutech.edu.vn/");
+        $("#kh").text("Trường ĐH Công Nghệ TP.HCM")
 }
 function text(abc){
     var us= document.abc.user.value;  
